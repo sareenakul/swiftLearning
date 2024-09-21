@@ -21,3 +21,15 @@ var myFloat = 3.14;
 var myExplicitInteger: Int = 40
 var myExplicitFloat: Float = 3
 print(myExplicitFloat) //prints "3.0"
+
+
+// TypeCast in Swift:
+var myNum = "30" // Mutable
+var yearsToGraduate = 4
+if let myModifiedNum = Int(myNum){
+    print(yearsToGraduate + myModifiedNum)
+}
+else{
+    print("Invalid input")
+}
+
